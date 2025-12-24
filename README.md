@@ -61,7 +61,7 @@ Ensured exact parity before switching Power BI source
 
 ## PBI Dashboard Overview
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](01_dashboard_overview.png)
 
 
 ## Core Business Metrics
