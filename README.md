@@ -61,7 +61,7 @@ Side-by-side verification across SQL Server(Production), MySQL(Post-Migration).
 ### Power BI (Final Reporting Layer)
 Validation page confirming exact parity with database-level metrics.
 
-![Power BI Validation](snapshots/05_validation.png)
+![Power BI Validation](snapshots/05_validation_page.png)
 
 
 ---
