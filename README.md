@@ -78,7 +78,7 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 
 ### Revenue Trend & Seasonality
 
-![Monthly Revenue Trend](02_snapshots/sales_trend.png)
+![Monthly Revenue Trend](snapshots/02_sales_trend.png)
 
 - Revenue peaks in **November (1.16M)**, indicating strong seasonal demand.
 - **September records the lowest revenue (0.70M)** before a sharp recovery in Q4.
@@ -86,7 +86,7 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 
 ### Category Performance
 
-![Category Performance](snapshots/03_category_performance)
+![Category Performance](snapshots/03_category_performance.png)
 - **Top 10 product categories contribute ~62.4% of total revenue**.
 - Highest contributing categories:
   - *beleza_saude* – 1.42M  
@@ -101,7 +101,7 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 
 ## Revenue, Orders & Delivery Impact
 
-![Revenue vs Orders and Delivery Impact](04_snapshots/revenue_vs_orders_insights.png)
+![Revenue vs Orders and Delivery Impact](snapshots/04_revenue_vs_orders_insights.png)
 
 ### Observations
 - High-order categories do not always generate high revenue.
