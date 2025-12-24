@@ -101,7 +101,7 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 
 ## Revenue, Orders & Delivery Impact
 
-![Revenue vs Orders and Delivery Impact](snapshots/04_revenue_vs_orders_insights.png)
+![Revenue vs Orders and Delivery Impact](snapshots/04_revenue_vs_order_insights.png)
 
 ### Observations
 - High-order categories do not always generate high revenue.
@@ -113,22 +113,9 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 - Improve logistics to increase customer satisfaction.
 - Increase inventory and marketing spend before November peak.
 
-
 ---
 
-
-## Repository Structure
-
-sales-analytics-pipeline/
-├── sql-server/
-├── mysql/
-├── powerbi/
-├── screenshots/
-└── README.md
-
----
-
-## Outcome
+## Final Project Outcome
 
 - Successfully migrated analytics backend from SQL Server to MySQL
 - Power BI dashboards required no redesign
