@@ -77,11 +77,16 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 ## Key Insights from Dashboard
 
 ### Revenue Trend & Seasonality
+
+![Monthly Revenue Trend](02_snapshots/sales_trend.png)
+
 - Revenue peaks in **November (1.16M)**, indicating strong seasonal demand.
 - **September records the lowest revenue (0.70M)** before a sharp recovery in Q4.
 - Clear evidence that sales are heavily influenced by seasonal buying behavior.
 
 ### Category Performance
+
+![Category Performance](snapshots/03_category_performance)
 - **Top 10 product categories contribute ~62.4% of total revenue**.
 - Highest contributing categories:
   - *beleza_saude* – 1.42M  
@@ -94,11 +99,23 @@ All metrics were cross-verified between SQL queries and Power BI measures to avo
 - RJ and MG follow but with significantly lower volumes.
 - Regional demand is clearly skewed, suggesting operational focus should start with SP.
 
-### Delivery Performance
-- Average delivery time stands at **12.42 days**.
-- Indicates a potential improvement area for logistics and customer satisfaction.
-- 
+## Revenue, Orders & Delivery Impact
+
+![Revenue vs Orders and Delivery Impact](04_snapshots/revenue_vs_orders_insights.png)
+
+### Observations
+- High-order categories do not always generate high revenue.
+- Premium categories earn more revenue with fewer orders.
+- Longer delivery times are associated with lower customer review scores.
+
+### Business Takeaways
+- Re-evaluate pricing for high-volume, low-revenue categories.
+- Improve logistics to increase customer satisfaction.
+- Increase inventory and marketing spend before November peak.
+
+
 ---
+
 
 ## Repository Structure
 
