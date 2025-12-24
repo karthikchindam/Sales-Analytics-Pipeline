@@ -51,11 +51,18 @@ Power BI connects only to the final fact table.
   → Applied `STR_TO_DATE()` and filtered invalid records inside views
 
 ### Metric Validation
-- Row counts and revenue totals were validated across:
-  - SQL Server
-  - MySQL
-  - Power BI  
-Ensured exact parity before switching Power BI source
+To ensure reporting accuracy, key metrics were validated across all layers before switching the Power BI source from SQL Server to MySQL.
+
+  ### End-to-End Parity Check
+Side-by-side verification across SQL Server(Production), MySQL(Post-Migration).
+
+![End-to-End Validation](snapshots/mysql_and_sqlserver_validation.png)
+
+### Power BI (Final Reporting Layer)
+Validation page confirming exact parity with database-level metrics.
+
+![Power BI Validation](snapshots/05_validation.png)
+
 
 ---
 
